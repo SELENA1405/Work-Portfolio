@@ -54,6 +54,7 @@ Original fiction project focused on mystery, storytelling, atmosphere, and chara
 ## Relevant Coursework
 - Digital Tools for Lifelong Learning
 - Dreams, Ideas and Sustainability
+- UX/UI Design
 
 ## Contact
 
