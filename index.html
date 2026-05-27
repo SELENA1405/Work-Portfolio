@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>San Ja Nar — Portfolio</title>
+  <link href="styles.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ── NAVBAR ── -->
+  <header id="navbar">
+    <nav>
+      <h1 class="nav-name">San Ja Nar</h1>
+      <div class="nav-links">
+        <a href="#about"          class="nav-link" data-section="about">About</a>
+        <a href="#projects"       class="nav-link" data-section="projects">Projects</a>
+        <a href="#education"      class="nav-link" data-section="education">Education</a>
+        <a href="#skills"         class="nav-link" data-section="skills">Skills</a>
+        <a href="#certifications" class="nav-link" data-section="certifications">Certifications</a>
+        <a href="#contact"        class="nav-link" data-section="contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ── HERO ── -->
+    <section id="welcome">
+      <div class="hero-content">
+        <p class="hero-eyebrow">Hello, I'm</p>
+        <h2 class="hero-name">San Ja Nar</h2>
+        <p class="hero-subtitle">
+          <span class="typed-text"></span><span class="cursor">|</span>
+        </p>
+        <div class="hero-ctas">
+          <a href="#projects" class="btn btn-primary">View my work ↓</a>
+          <a href="#contact"  class="btn btn-ghost">Say hello ↓</a>
+        </div>
+      </div>
+      <div class="hero-image-wrap">
+        <img
+          src="https://i.pinimg.com/736x/80/eb/93/80eb93d28b33e1bfb5f457dc4fdeba2d.jpg"
+          alt="San Ja Nar — profile photo"
+          class="profile-pic"
+        >
+      </div>
+      <a href="#about" class="scroll-indicator" aria-label="Scroll to About section">
+        <span class="scroll-arrow"></span>
+      </a>
+    </section>
+
+    <!-- ── ABOUT ── -->
+    <section id="about" class="fade-in">
+      <div class="section-inner">
+        <h2 class="section-heading">About Me</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I am currently studying Computer and Data Science while pursuing Information
+              Technology with a specialisation in Software Engineering. I enjoy exploring
+              technology, storytelling, and creative workflows. Recently, I have become
+              interested in how AI can support content creation and digital experiences.
+            </p>
+          </div>
+          <div class="about-facts">
+            <div class="fact-card">
+              <span class="fact-icon">📍</span>
+              <div>
+                <p class="fact-label">Location</p>
+                <p class="fact-value">Bangkok, Thailand</p>
+              </div>
+            </div>
+            <div class="fact-card">
+              <span class="fact-icon">🎓</span>
+              <div>
+                <p class="fact-label">CGPA</p>
+                <p class="fact-value">3.95 / 4.0</p>
+              </div>
+            </div>
+            <div class="fact-card">
+              <span class="fact-icon">🌐</span>
+              <div>
+                <p class="fact-label">Languages</p>
+                <p class="fact-value">4 languages</p>
+              </div>
+            </div>
+            <div class="fact-card">
+              <span class="fact-icon">✍️</span>
+              <div>
+                <p class="fact-label">Writing</p>
+                <p class="fact-value">Fiction author</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-stats">
+          <div class="stat-item">
+            <span class="stat-num">2</span>
+            <span class="stat-label">Degrees in progress</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-num">4</span>
+            <span class="stat-label">Languages spoken</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-num">1</span>
+            <span class="stat-label">Novel in progress</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── PROJECTS ── -->
+    <section id="projects" class="fade-in">
+      <div class="section-inner">
+        <h2 class="section-heading">Projects</h2>
+        <div class="projects-grid">
+
+          <!-- Personal Website -->
+          <article class="project-card">
+            <div class="project-thumb">
+              <img
+                src="https://images.unsplash.com/photo-1547658719-da2b51169166?w=600&q=80"
+                alt="Personal website project preview"
+                loading="lazy"
+              >
+              <span class="project-tag tag-web">Web Dev</span>
+            </div>
+            <div class="project-body">
+              <h3>Personal Website</h3>
+              <p>Designed and developed a personal portfolio website to showcase projects and skills, using HTML and CSS with a focus on clean, organised design.</p>
+              <ul class="project-skills">
+                <li>HTML</li><li>CSS</li><li>JavaScript</li>
+              </ul>
+            </div>
+            <div class="project-footer">
+              <a href="https://www.codedex.io/@Selena14/build/personalwebsite" target="_blank" rel="noopener" class="proj-link" aria-label="View source code for Personal Website">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                Source
+              </a>
+              <a href="https://www.codedex.io/@Selena14/build/personalwebsite" target="_blank" rel="noopener" class="proj-link" aria-label="View live demo of Personal Website">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                Live Demo
+              </a>
+            </div>
+          </article>
+
+          <!-- AI Video -->
+          <article class="project-card">
+            <div class="project-thumb">
+              <img
+                src="https://img.youtube.com/vi/HrqCoa3Bo2g/hqdefault.jpg"
+                alt="AI video project YouTube thumbnail"
+                loading="lazy"
+              >
+              <span class="project-tag tag-media">Creative Media</span>
+            </div>
+            <div class="project-body">
+              <h3>University AI Video Project</h3>
+              <p>Planned, created, and edited an AI-generated video independently — experimenting with creative presentation and modern AI video tools.</p>
+              <ul class="project-skills">
+                <li>Canva</li><li>CapCut</li><li>HeyGen AI</li>
+              </ul>
+            </div>
+            <div class="project-footer">
+              <a href="https://youtu.be/HrqCoa3Bo2g?si=nzt6BHzRAuv4p1WH" target="_blank" rel="noopener" class="proj-link" aria-label="Watch AI video project on YouTube">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                Watch on YouTube
+              </a>
+            </div>
+          </article>
+
+          <!-- Novel -->
+          <article class="project-card">
+            <div class="project-thumb project-thumb--novel">
+              <div class="novel-cover">
+                <p class="novel-cover-title">The Isle Wood<br>Academy</p>
+                <p class="novel-cover-sub">A novel by San Ja Nar</p>
+              </div>
+              <span class="project-tag tag-fiction">Fiction</span>
+            </div>
+            <div class="project-body">
+              <h3>The Isle Wood Academy</h3>
+              <p>Original mystery/thriller fiction — developed the concept, worldbuilding, characters, and narrative structure for this ongoing novel project.</p>
+              <ul class="project-skills">
+                <li>Google Docs</li><li>Notion</li><li>Creative Writing</li>
+              </ul>
+            </div>
+            <div class="project-footer">
+              <a href="assets/story-sample.pdf" target="_blank" rel="noopener" class="proj-link" aria-label="Read chapter excerpt from The Isle Wood Academy">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                Read Chapter Excerpt
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── EDUCATION ── -->
+    <section id="education" class="fade-in">
+      <div class="section-inner">
+        <h2 class="section-heading">Education</h2>
+        <div class="timeline">
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <span class="timeline-year">2024 – 2028</span>
+                <span class="timeline-badge">Current</span>
+              </div>
+              <h3>Bachelor of Science in Computer and Data Science</h3>
+              <p class="timeline-school">Global Academy @ Siam University · Bangkok</p>
+              <p class="timeline-cgpa">CGPA: <strong>3.95</strong></p>
+              <details class="timeline-details">
+                <summary>Relevant coursework</summary>
+                <ul>
+                  <li>Digital Tools for Lifelong Learning</li>
+                  <li>Dreams, Ideas and Sustainability</li>
+                  <li>UX / UI Design</li>
+                </ul>
+              </details>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <span class="timeline-year">2026 – 2028</span>
+                <span class="timeline-badge timeline-badge--upcoming">Upcoming</span>
+              </div>
+              <h3>Bachelor of Science in Information Technology</h3>
+              <p class="timeline-school">La Trobe University, Australia · Double Degree Program</p>
+              <p class="timeline-specialisation">Specialisation in Software Engineering</p>
+              <details class="timeline-details">
+                <summary>Anticipated coursework</summary>
+                <ul>
+                  <li>Human-Computer Interaction</li>
+                  <li>Artificial Intelligence</li>
+                  <li>Data Visualization</li>
+                  <li>Big Data</li>
+                  <li>Machine Learning</li>
+                </ul>
+              </details>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── SKILLS ── -->
+    <section id="skills" class="fade-in">
+      <div class="section-inner">
+        <h2 class="section-heading">Skills</h2>
+        <div class="skills-grid">
+
+          <div class="skills-group">
+            <h3 class="skills-group-title">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              Technical
+            </h3>
+            <div class="skill-tags">
+              <span class="skill-tag" data-tooltip="University coursework & projects">Java</span>
+              <span class="skill-tag" data-tooltip="University coursework">Python</span>
+              <span class="skill-tag" data-tooltip="Built this portfolio">HTML</span>
+              <span class="skill-tag" data-tooltip="Built this portfolio">CSS</span>
+              <span class="skill-tag" data-tooltip="Built this portfolio">JavaScript</span>
+              <span class="skill-tag" data-tooltip="Version control">Git</span>
+              <span class="skill-tag" data-tooltip="Version control hosting">GitHub</span>
+              <span class="skill-tag" data-tooltip="Project & note management">Notion</span>
+              <span class="skill-tag" data-tooltip="Design & social content">Canva</span>
+              <span class="skill-tag" data-tooltip="Video editing">CapCut</span>
+              <span class="skill-tag" data-tooltip="UI/UX design">Figma</span>
+            </div>
+          </div>
+
+          <div class="skills-group">
+            <h3 class="skills-group-title">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+              Soft Skills
+            </h3>
+            <div class="skill-tags">
+              <span class="skill-tag" data-tooltip="Debugging & creative thinking">Problem Solving</span>
+              <span class="skill-tag" data-tooltip="Managing a double-degree program">Time Management</span>
+              <span class="skill-tag" data-tooltip="Fiction writing & creative projects">Storytelling</span>
+              <span class="skill-tag" data-tooltip="AI video & portfolio work">Content Creation</span>
+            </div>
+          </div>
+
+          <div class="skills-group">
+            <h3 class="skills-group-title">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+              Languages
+            </h3>
+            <div class="skill-tags">
+              <span class="skill-tag" data-tooltip="IELTS Band 7.5">English</span>
+              <span class="skill-tag" data-tooltip="Native speaker">Nepali</span>
+              <span class="skill-tag" data-tooltip="Fluent">Hindi</span>
+              <span class="skill-tag" data-tooltip="Fluent">Burmese</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CERTIFICATIONS ── -->
+    <section id="certifications" class="fade-in">
+      <div class="section-inner">
+        <h2 class="section-heading">Certifications</h2>
+        <div class="certs-grid">
+          <div class="cert-card">
+            <div class="cert-icon" aria-hidden="true">🎓</div>
+            <div class="cert-body">
+              <h3>Entrepreneurship Workshop Certificate</h3>
+              <p class="cert-issuer">ThinkX Global</p>
+            </div>
+            <span class="cert-year">2025</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CONTACT ── -->
+    <section id="contact" class="fade-in">
+      <div class="section-inner contact-inner">
+        <h2 class="section-heading">Let's Connect</h2>
+        <p class="contact-tagline">
+          I'm always open to new opportunities, collaborations, or just a good conversation.<br>
+          Feel free to reach out — I'd love to hear from you.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:selena141ss@gmail.com" class="contact-btn" aria-label="Send San Ja Nar an email">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            Email
+          </a>
+          <a href="https://www.linkedin.com/in/san-ja-nar-14102005s/" target="_blank" rel="noopener" class="contact-btn" aria-label="View San Ja Nar's LinkedIn profile">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            LinkedIn
+          </a>
+          <a href="https://github.com/SELENA1405" target="_blank" rel="noopener" class="contact-btn" aria-label="View San Ja Nar's GitHub profile">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+            GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <button id="back-to-top" aria-label="Back to top of page">Back to Top ↑</button>
+    <p class="footer-text">Made with love by @Selena14</p>
+    <p class="footer-text">© 2026 San Ja Nar's Personal Website</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
