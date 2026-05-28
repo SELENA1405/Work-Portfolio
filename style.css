@@ -446,9 +446,9 @@ section:nth-child(even) {
   letter-spacing: 0.04em;
 }
 
-.tag-web    { background: #dbeafe; color: #1e40af; }
-.tag-media  { background: #d1fae5; color: #065f46; }
-.tag-fiction{ background: #ede9fe; color: #5b21b6; }
+.tag-social-media    { background: #dbeafe; color: #1e40af; }
+.tag-media           { background: #d1fae5; color: #065f46; }
+.tag-fiction         { background: #ede9fe; color: #5b21b6; }
 
 /* novel cover placeholder */
 .project-thumb--novel {
